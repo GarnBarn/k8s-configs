@@ -38,6 +38,6 @@ data "aws_availability_zone" "all" {
 
 variable "limit_zone_number" {
   description = "The number of zone per region"
-  default     = 1
+  default     = 2
 }
 
